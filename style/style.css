@@ -168,3 +168,53 @@ font-weight: 700;
 font-size: 16px;
 font-weight: 400;
 }
+
+
+/* education related style */
+.education-section{
+  margin: 130px 0px;
+  text-align: center;
+}
+.education-mainheader{
+  color: #181818;
+font-size: 35px;
+font-weight: 700;
+}
+.education-exprience{
+ display: flex;
+ gap: 71px;
+}
+.education-title{
+ text-align: left;
+}
+.education-header{
+  color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.education-box{
+
+}
+.education-name{
+  color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.education-place{
+  color: #757575;
+font-size: 20px;
+font-weight: 600;
+
+}
+.education-descripttion{
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* footer related style */
+footer{
+  background: #FFF8F3;
+  display: flex;
+  height: 780px;
+}
