@@ -17,6 +17,10 @@
   font-size: 20px;
   padding: 20px 35px;
 }
+
+
+
+
 /* nav realated style */
 .nav-mary{
   color:  #181818;
@@ -47,9 +51,20 @@ nav ul{
 .header-anchor{
   text-decoration: none;
 }
+
+
+
+
 /* header related style */
 .header-contant{
   background: #FFF8F3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position:bottom right;
+}
+.header-main-contant{
+  gap: 20px;
+  max-width: 585px;
 }
 .header-intro{
   color: #474747;
@@ -60,6 +75,96 @@ nav ul{
   font-size: 85px;
   font-weight:700;
 }
+.header-paragraph{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+}
 .header-main{
   display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 0px 230px;
+}
+
+
+
+/* Main section related style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about{
+  border-radius: 10px;
+  background: #FFF8F3;
+  margin: 150px 0px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.about-description{
+  display: flex;
+  justify-content: space-around;
+}
+.about-title{
+  color: #181818;
+font-size: 35px;
+font-weight: 700;
+}
+.about-pragraph{
+  color: #757575;
+font-size: 18px;
+font-weight: 400;
+}
+.d-header{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+}
+.d-p{
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+
+/* skill related style */
+.skill-section{
+  background: #FFF;
+  text-align: center;
+  gap: 30px;
+
+}
+.skill-header{
+  color:  #181818;
+font-size: 35px;
+font-weight: 700;
+}
+.skill-pragraph{
+  color:  #757575;
+font-size: 18px;
+font-weight: 400;
+}
+.skill-skill{
+ display: flex;
+ gap: 24px;
+ 
+
+}
+.skill-box{
+  border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+.skill-box-header{
+  color:  #181818;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+}
+.skill-box-paragraph{
+  color: #757575;
+font-size: 16px;
+font-weight: 400;
 }
