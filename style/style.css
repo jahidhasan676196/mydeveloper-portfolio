@@ -264,3 +264,45 @@ font-weight: 400;
 #b{
   margin-top: 24px;
 }
+
+
+.hide{
+  display: none;
+}
+
+
+/* responsive related style */
+/* mobaile device */
+@media screen and (max-width:576px) {
+  
+  .skill-skill , .education-exprience , .about-description {
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+  .textarea-p , .footer-form input{
+    padding: 10px;
+  }
+  .about {
+    margin: 10px;
+    padding: 20px;
+  }
+}
+
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .skill-skill , .education-exprience {
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+  .textarea-p , .footer-form input{
+    padding: 10px;
+  }
+}
